@@ -1,0 +1,66 @@
+body{max-width:1280px;}
+body .background{
+    background-image: url("../images/bg.jpg");
+    background-repeat: repeat;
+    background-position: left top;
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#page{padding: 30px; text-align:center}
+#header{
+    text-align: center;
+    height:100px;
+    position:relative;
+}
+#header p{
+    font-size:24px;
+    font-family:"Times New Roman";
+    font-style:italic;
+    text-align: center;
+    padding:10px 0;
+    color:#F6358A;
+}
+#header #nav{text-align:center;clear:both;padding:0 10%; width:100%; margin:10px 0;}
+#header li{
+    position: relative;
+    float: left;
+    width:20%;
+    font:arial;
+    font-size: 18px;
+}
+li a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.videos video{
+    width:60%;
+    margin:10px 20%;
+}
+#roadtrip{
+    position: relative;
+    width: 100%;
+    min-height:100px;
+    margin-top:20px;
+}
+.photos{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.photos ul li { display: inline; width:120px;}
+#resource {
+    position: relative;
+    width:80%;
+    height:auto;
+    margin-left:10%;
+    text-decoration: none;
+    cursor: pointer;
+}
+#resource li{
+    display: inline;
+    margin:0 5%;
+}
