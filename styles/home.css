@@ -1,0 +1,70 @@
+body{max-width:1280px;}
+#page{padding: 30px;text-align:center}
+.videos video{width:60%;margin:10px 20%;}
+body .background{
+    background-image: url("../images/bg_pool.jpg");
+    background-repeat: repeat;
+    background-position: left top;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#header {height:140px;position:relative}
+#header #nav{clear:both;padding:0 10%; width:100%; margin:10px 0;}
+#header #nav li{
+    position: relative;
+    float: left;
+    width:16%;
+    font:arial;
+    font-size: 18px;
+    text-align:center;
+    background-image: url("../images/grey.jpg");
+    padding: 10px 0;
+    color:#E8E8E8;
+    border-right:1px dotted;
+}
+#header table{margin:0}
+#header tbody{border:0 none;}
+#header #logo{position:relative;float:left; width:10%; margin:10px 0 15px 10%}
+#header audio{position:relative;float:left;margin: 30px 5% 0;width: 25%;}
+#header #___gcse_0{float: left;position: relative; width: 25%;margin:28px 0 0 5%;}
+#header #nav ul{clear:both}
+#header #nav ul li a{color:#E8E8E8;text-decoration: none;}
+#page #main{clear:both;margin:0 10%;text-align: left;position:relative;padding:0}
+#main h2{display:inline;font-size:20px;}
+#main #experience{height:208px;}
+#main #experience ul{margin-top:10px}
+#main #experience li{position:relative;display:inline;}
+#main #experience li img{position: relative;height:64px; margin-right:10px}
+#main #experience a{cursor: pointer;text-decoration: none;}
+#main .overview{font-size: 14px; margin:6px 0; clear:both;}
+#main .company{position:relative;float:left;font-weight: bolder; width:40%;margin-right:5%;}
+#main .major{position:relative;float:left;font-weight: bolder; width:40%;margin-right:5%;}
+#main .school{position:relative;float:left;font-weight: bolder; width:10%;}
+#main .period{float:left;position:relative;width:30%;margin-right:5%;}
+#main .location{position: relative;float:right}
+#main #skill {display:block; clear:both; font-size: 16px; font-weight: bold;}
+#main #skill li{position:relative; display:inline;}
+#main #skill li img{height:48px;margin:5px;}
+#main #education{clear:both; margin-top: 20px; height: 70px;}
+#main #habit {margin-top:10px;clear:both;}
+#main #habit #image-gallery{text-align: center;margin:10px 0;}
+#main #habit #image-gallery img{height:90px}
+#main #habit ul{ display:inline;margin:5px;}
+#main #habit li{display: inline}
+#footer {clear:both;text-align:center;margin:0 10%;border-top:1px solid #666666; padding-top:10px;}
+#footer span{font-size:12px; font-weight:bold }
+
+/** contact page */
+#main #contact{position:relative;text-align:center;margin:10px 0 0}
+#main #contact h2{font-size:16px; color:#333333; }
+#main #contact form{margin:10px 0;text-align:left;}
+#main #contact form span{display:inline-block;min-width:100px;font-size: 14px;}
+#main #contact form input{display:inline-block;min-width:30%; margin:5px 0}
+#main #contact form textarea{display:block;min-width:75%;min-height:100px;}
+#main #contact form note{margin-left:10px;font-size:10px; }
+#main #contact form button{margin-top:10px;background-image: url("../images/submit_button.gif"); width:63px; height:27px;}
+#main #contact-post-result p{font-weight:bold; color:#D91C1C}

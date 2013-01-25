@@ -1,11 +1,15 @@
 # Ignore configuration files that may contain sensitive information.
-sites/*/*settings*.php
+sites/*/settings*.php
 
 # Ignore paths that contain generated content.
 cache/
 files/
 sites/*/files
 sites/*/private
+php.ini
+wedding.html
+photo.php
+.htpasswd
 
 # Ignore default text files
 .htaccess
@@ -22,6 +26,11 @@ sites/all/modules/README.txt
 sites/all/themes/README.txt
 
 # Ignore store
-store/var
+store/var/
 store/etc/local.xml
-store/media
+store/media/
+
+#ignore media
+videos/
+images/
+roadTripFL
